@@ -120,6 +120,11 @@ h2.block-title { /* Block title */
   border-top: 1px solid #8492B1;
 }
 
+#block-system-navigation ul li.last{
+  visibility: hidden;
+}
+
+
 #block-system-navigation ul li a {
   color: white;
   text-decoration: none;
