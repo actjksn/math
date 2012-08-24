@@ -133,7 +133,7 @@
   <div id="highlighted">
     <div id="banner">
     <noscript>
-      <img src="http://128.97.4.151/sites/default/files/pictures/math5.jpg" />
+      <img src="http://128.97.4.151/sites/default/files/math5-overlay.jpg" />
       <style type="text/css">
         .region-highlighted {
           display: none;

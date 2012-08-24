@@ -18,15 +18,14 @@ html {
 body {
   margin: 0;
   padding: 0;
-
+  background: #EFEFEF; /*The standard...*/
   background-image: -moz-linear-gradient(top, #9E9E9E, #EFEFEF);
   background-image: -webkit-gradient(linear, left top, left bottom, from(#9E9E9E), to(#EFEFEF));
   background-image: -webkit-linear-gradient(top, #9E9E9E, #EFEFEF);
   background-image: -ms-linear-gradient(#9E9E9E, #EFEFEF); /* IE10 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9E9E9E', endColorstr='#EFEFEF'); /* IE6 & IE7 */  
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#9E9E9E', endColorstr='#EFEFEF')"; /* IE8+ */  
-  background: linear-gradient(#9E9E9E, #EFEFEF); /* the standard */    
-
+  background: linear-gradient(#9E9E9E, #EFEFEF);
   
   font-size: 12px;
 
@@ -133,11 +132,7 @@ a {
   height: auto;
   border-right: 1px solid #999999;
   border-left: 1px solid #999999;
-  margin-bottom: 10px;
-  
-  /*-moz-border-radius: 5px;
-  border-radius: 5px;*/
-  
+  margin-bottom: 10px;  
   position: relative;
   
   background-color: #F7F8F8;
@@ -263,8 +258,8 @@ span.field-label { /* The inline field label used by the Fences module */
   background-position: initial initial;
   
   -moz-border-top-left-radius: 5px;
-  border-top-left-radius: 5px;
   -moz-border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   
   min-height:500px;
