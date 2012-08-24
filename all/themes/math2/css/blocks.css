@@ -229,3 +229,37 @@ h2.block-title { /* Block title */
   padding: 0;
   margin: 0;  
 }
+
+/*
+ * Styles for New / Recently Added Articles Block...
+ * 20120824 - jliu
+ */
+#block-views-new-kb-articles-block {
+  
+}
+
+#block-views-new-kb-articles-block table {
+  width: 100%;
+  border: 1px solid #c0c0c0;
+}
+
+#block-views-new-kb-articles-block tr{
+  border: 1px solid #c0c0c0;
+}
+ 
+/*
+ * Styles for Browse All / Search KB Page...
+ * Don't know if this belongs here right now, but at least it's a place to start.
+ * 20120824 - jliu
+ */
+.kb-all {
+}
+
+.kb-all table {
+  width: 100%;
+  border: 1px solid #c0c0c0;
+}
+
+.kb-all tr {
+  border: 1px solid #c0c0c0 !important;
+}
