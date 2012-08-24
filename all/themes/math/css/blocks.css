@@ -1,0 +1,213 @@
+/**
+ * @file
+ * Block Styling
+ */
+
+
+.sidebars .block { /* Block wrapper */
+  margin-bottom: 1.5em;
+  background-color: #F0F0F0;
+}
+
+.block.first { /* The first block in the region */
+}
+
+.block.last { /* The last block in the region */
+}
+
+.block.odd { /* Zebra striping for each block in the region */
+}
+
+.sidebars .block.odd h2.block-title { /* Custom header for zebra striping - 20120813 jliu */
+  background-image:url("../images/block-bg.png");
+  background-position:0 100%;
+  background-repeat:no-repeat no-repeat;
+  margin-left:-28px;
+  padding: 0px 0 15px 25px;
+}
+
+.block.even { /* Zebra striping for each block in the region */
+}
+
+.sidebars .block.even h2.block-title { /* Custom header for zebra striping - 20120813 jliu */
+background-image:url("../images/block-bg-black.png");
+  background-position:0 100%;
+  background-repeat:no-repeat no-repeat;
+  margin-left:-28px;
+  padding:0px 0 15px 25px;
+}
+
+.sidebars h2.block-title { /* Block titles in the first sidebar */
+  color: #FFFFFF;
+  font-size: 15px;
+}
+
+h2.block-title { /* Block title */
+}
+
+#block-aggregator-category-1 { /* Block for the latest news items in the first category */
+}
+
+#block-aggregator-feed-1 { /* Block for the latest news items in the first feed */
+}
+
+#block-block-1 { /* First block created with "Add block" link */
+}
+
+#block-blog-recent { /* "Recent blog posts" block */
+}
+
+#block-book-navigation { /* "Book navigation" block for the current book's table of contents */
+}
+
+#block-comment-recent { /* "Recent comments" block */
+}
+
+#block-forum-active { /* "Active forum topics" block */
+}
+
+#block-forum-new { /* "New forum topics" block */
+}
+
+#block-locale-language { /* Language switcher block */
+}
+
+#block-menu-menu-NAME { /* Custom menu block */
+}
+
+#block-node-recent { /* "Recent content" block */
+}
+
+#block-node-syndicate { /* "Syndicate" block for primary RSS feed; see also page.css's .feed-icon */
+}
+
+#block-poll-recent { /* "Most recent poll" block */
+}
+
+#block-profile-author-information { /* "Author information" block for the profile of the page's author */
+}
+
+#block-shortcut-shortcuts { /* "Shortcuts" block */
+}
+
+#block-statistics-popular { /* "Popular content" block */
+}
+
+#block-system-main-menu { /* "Main menu" block */
+}
+
+#block-system-management { /* "Management" block for Drupal management menu */
+}
+
+#block-system-navigation { /* "Navigation" block for Drupal navigation menu */
+  padding-bottom: 10px;
+}
+
+#block-system-user-menu { /* "User menu" block for Drupal user menu */
+}
+
+#block-system-help { /* "System help" block */
+}
+
+#block-system-main { /* "Main page content" block */
+}
+
+#block-system-powered-by { /* "Powered by Drupal" block */
+}
+
+#block-user-login { /* "User login form" block */
+}
+
+#block-user-new { /* "Who's new" block for a list of the newest users */
+}
+
+#block-user-online { /* "Who's online" block for a list of the online users */
+}
+
+/* 
+ * Custom CSS migrated from 'normalize.css' 
+ * 20120813 -- jliu
+ */
+ 
+#block-search-form { /* "Search form" block */
+  float: right;
+  background-color:#536895;
+  clear:both;
+  margin: 25px;
+  display:inline-block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+#block-search-form .form-text {
+  border:none;
+  margin: 5px;
+  width:155px;
+  padding: 2px;
+}
+
+#block-search-form .form-submit {
+  background-color: #536895;
+  color: #FFFFFF;
+  padding: 5px 10px 5px 5px;
+  border-style: none;
+}
+
+/*
+ * Styles for 'Recently Added KB Articles 
+ * 20120813 - jliu
+ */
+
+.view-new-kb-articles table {
+  border: 1px solid #ccc;
+}
+
+.view-new-kb-articles th {
+  border-bottom: 1px solid #ccc;
+}
+ 
+.view-new-kb-articles th, .view-new-kb-articles td  {
+  padding: 10px;
+  min-width: 150px;
+}
+.view-new-kb-articles a, td {
+  color: #fff;
+  text-decoration: none;
+}
+
+.view-new-kb-articles a:hover {
+  text-decoration: underline;
+}
+
+
+.view-new-kb-articles .odd {
+  background-color: #536895;
+}
+
+.view-new-kb-articles .even {
+  background-color: #999;
+}
+
+/*
+ * Styling for blocks to make them look less white-spacey
+ * 20120813 - jliu
+ */
+ 
+.block ul.menu {
+ margin-top: 0;
+}
+ 
+
+/*
+ * Mini Calendar (Block) Styles
+ * 20120813 - jliu
+ */
+.view.view-calendar {
+  padding: 0 10px 10px 10px;
+}
+
+
+
+
+ 

@@ -1,0 +1,226 @@
+/**
+ * @file
+ * Block Styling
+ */
+
+
+.block { /* Block wrapper */
+  margin-bottom: 1.5em;
+}
+
+.block.first { /* The first block in the region */
+}
+
+.block.last { /* The last block in the region */
+}
+
+.block.odd { /* Zebra striping for each block in the region */
+}
+
+.block.even { /* Zebra striping for each block in the region */
+}
+
+h2.block-title { /* Block title */
+}
+
+ /*
+  * Custom headers for blocks in right-sidebar (modify class name if necessary)
+  * 20120816 - jliu
+  */
+.region-sidebar-second h2.block-title { /* Block title */
+
+  background-color:#DFDFDF;
+  border-bottom: 2px solid #cccccc;
+  
+  font-size:13px;
+  font-weight:normal;
+  height:36px;
+  padding:9px 0 0 14px;
+  text-shadow:#EEEEEE 1px 1px 1px;
+  text-transform:uppercase; 
+}
+
+.region-sidebar-second .block {
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+}
+
+#block-aggregator-category-1 { /* Block for the latest news items in the first category */
+}
+
+#block-aggregator-feed-1 { /* Block for the latest news items in the first feed */
+}
+
+#block-block-1 { /* First block created with "Add block" link */
+}
+
+#block-blog-recent { /* "Recent blog posts" block */
+}
+
+#block-book-navigation { /* "Book navigation" block for the current book's table of contents */
+}
+
+#block-comment-recent { /* "Recent comments" block */
+}
+
+#block-forum-active { /* "Active forum topics" block */
+}
+
+#block-forum-new { /* "New forum topics" block */
+}
+
+#block-locale-language { /* Language switcher block */
+}
+
+#block-menu-menu-NAME { /* Custom menu block */
+}
+
+#block-node-recent { /* "Recent content" block */
+}
+
+#block-node-syndicate { /* "Syndicate" block for primary RSS feed; see also page.css's .feed-icon */
+}
+
+#block-poll-recent { /* "Most recent poll" block */
+}
+
+#block-profile-author-information { /* "Author information" block for the profile of the page's author */
+}
+
+#block-search-form { /* "Search form" block */
+}
+
+#block-shortcut-shortcuts { /* "Shortcuts" block */
+}
+
+#block-statistics-popular { /* "Popular content" block */
+}
+
+#block-system-main-menu { /* "Main menu" block */
+}
+
+#block-system-management { /* "Management" block for Drupal management menu */
+}
+
+#block-system-navigation {
+}
+
+#block-system-navigation  ul {
+  padding: 0;
+  margin-top: 18px;
+}
+
+#block-system-navigation ul li {
+  list-style: none;  
+  line-height: 28px;
+  border-bottom: 1px solid #8492B1;
+}
+
+#block-system-navigation ul li.first{
+  border-top: 1px solid #8492B1;
+}
+
+#block-system-navigation ul li a {
+  color: white;
+  text-decoration: none;
+  padding-left: 18px;
+}
+
+#block-system-navigation ul li:hover{
+  background-color: #8492B1
+}
+
+#block-system-user-menu { /* "User menu" block for Drupal user menu */
+}
+
+#block-system-help { /* "System help" block */
+}
+
+#block-system-main { /* "Main page content" block */
+}
+
+#block-system-powered-by { /* "Powered by Drupal" block */
+}
+
+#block-user-login { /* "User login form" block */
+}
+
+#block-user-new { /* "Who's new" block for a list of the newest users */
+}
+
+#block-user-online { /* "Who's online" block for a list of the online users */
+}
+
+/*
+ * Event Calendar Custom Styles
+ * 20120816 -jliu 
+ */
+.event-calendar {
+  width: 190px;
+  padding: 25px 15px;
+}
+
+.event-calendar h3 a {
+  font-size: .85em;
+  color: #325385;
+  text-decoration: none;
+  font-weight: normal;
+}
+ 
+.event-calendar table {
+  border:1px solid #224422;
+  border-collapse:collapse;
+  border-spacing:0;
+  margin-bottom:1em;
+  width:98%;
+}
+
+.event-calendar tbody {
+}
+
+.event-calendar tr {
+  line-height: normal;
+  border: 1px solid #cccccc;
+}
+
+.event-calendar td {
+  color:#666666;
+  margin:0;
+  padding:2px;
+  text-align:center;
+  vertical-align:top;
+  border: 1px solid #cccccc !important;
+}
+
+.event-calendar th.days {
+  background-color:#536895;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border:1px solid #44557A;
+  color:#FFFFFF;
+  padding:5px 0.33em;
+  text-align:center;
+  font-weight: normal;
+}
+
+.event-calendar .date-nav {
+  margin-bottom: -25px !important;
+}
+
+/*
+ * Some styles to clean up the slider...
+ * 20120822 - jliu
+ */
+.slider .nivo-controlNav {
+  display: none;
+}
+
+.nivo-caption {
+
+}
+
+.nivo-caption h2,
+.nivo-caption p {
+  padding: 0;
+  margin: 0;  
+}
