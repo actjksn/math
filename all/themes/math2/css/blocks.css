@@ -263,3 +263,11 @@ h2.block-title { /* Block title */
 .kb-all tr {
   border: 1px solid #c0c0c0 !important;
 }
+
+/*
+ * Styles for Upcoming Events block..
+ * 20120829 - jliu
+ */
+.upcoming-calendar {
+  padding: 25px 15px;
+}
