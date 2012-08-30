@@ -1,4 +1,0 @@
-math
-====
-
-UCLA Math Repository...
